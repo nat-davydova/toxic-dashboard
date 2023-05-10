@@ -21,6 +21,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: var(--font-size-default);
     line-height: 1.2;
+    color: var(--font-color-default);
     background-color: var(--bg-default);
 }
 
