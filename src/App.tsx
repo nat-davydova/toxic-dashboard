@@ -1,4 +1,5 @@
 import "./App.css";
+import { Footer } from "./components/Footer/Footer.tsx";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="container">
         <div className="topBar"></div>
         <div className="content"></div>
-        <div className="footer"></div>
+        <Footer />
       </div>
     </div>
   );
