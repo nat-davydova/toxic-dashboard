@@ -2,16 +2,25 @@
     --dark100: #141419;
     --dark200: #191A21;
 
+    --light100: #f2f2f2;
+
     --bg-default: var(--dark100);
     --bg-surfaces: var(--dark200);
 
-    --navbar-width: 250px;
+    --font-size-default: 16px;
+
+    --font-color-default: var(--light100)
 }
 
 .app {
+    --navbar-width: 250px;
+
     min-height: 100vh;
     display: grid;
     grid-template-columns: var(--navbar-width) 1fr;
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-size-default);
+    line-height: 1.2;
     background-color: var(--bg-default);
 }
 
