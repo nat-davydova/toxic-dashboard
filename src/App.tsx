@@ -5,11 +5,9 @@ function App() {
     <div className="app">
       <div className="navigation"></div>
       <div className="container">
-        <div className="topBar">Top Bar</div>
+        <div className="topBar"></div>
         <div className="content"></div>
-        <div className="footer">
-          <p>Footer</p>
-        </div>
+        <div className="footer"></div>
       </div>
     </div>
   );
