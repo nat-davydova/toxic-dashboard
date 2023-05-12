@@ -6,3 +6,19 @@
     color: var(--font-color-default);
     background-color: var(--bg-surfaces);
 }
+
+.logo {
+    margin-bottom: 60px;
+}
+
+.avatar {
+    margin-bottom: 32px;
+}
+
+.userName {
+    margin-bottom: 28px;
+}
+
+.userLvl {
+    margin-bottom: 40px;
+}
