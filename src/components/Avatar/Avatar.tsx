@@ -1,6 +1,7 @@
 import * as classNames from "classnames";
 
 import styles from "./Avatar.module.css";
+import defaultAvatar from "./assets/default-avatar.svg";
 import { AvatarSize } from "./types.ts";
 
 interface IAvatarProps {
@@ -13,5 +14,9 @@ export function Avatar({ size = AvatarSize.SM }: IAvatarProps) {
     [`${styles.sizeLg}`]: size === AvatarSize.LG,
   });
 
-  return <div className={avatarClassnames}></div>;
+  return (
+    <div className={avatarClassnames}>
+      <img src={defaultAvatar} alt="Userpic" />
+    </div>
+  );
 }

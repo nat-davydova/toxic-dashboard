@@ -5,7 +5,11 @@
     height: var(--avatar-dimensions);
     object-fit: cover;
     border-radius: 50%;
-    background-color: green;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
 }
 
 .sizeLg {
