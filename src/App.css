@@ -5,13 +5,23 @@
 
     --light100: #f2f2f2;
 
+    --violet: #6468c5;
+    --pink: #e06bbf;
+
     --bg-default: var(--grey100);
     --bg-surfaces: var(--grey200);
+    --bg-color-accent-dark: var(--violet);
+    --bg-color-accent-light: var(--pink);
 
     --font-size-default: 16px;
+    --font-size-xl: 40px;
+
+    --font-weight-bold: 700;
 
     --font-color-default: var(--light100);
     --font-color-secondary: var(--grey600);
+
+    --gradient-default: linear-gradient(to right, var(--bg-color-accent-dark), var(--bg-color-accent-light))
 }
 
 .app {

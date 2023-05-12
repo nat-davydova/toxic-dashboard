@@ -1,0 +1,7 @@
+.logo {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    background: var(--gradient-default);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
