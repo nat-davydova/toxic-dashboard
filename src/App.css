@@ -31,7 +31,3 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
-.navigation {
-    background-color: var(--bg-surfaces);
-}
