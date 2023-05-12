@@ -1,0 +1,10 @@
+.progress {
+    width: 200px;
+    height: 200px;
+    fill: transparent;
+}
+
+.progress svg {
+    stroke: var(--bg-color-accent-dark);
+    stroke-width: 8px;
+}
