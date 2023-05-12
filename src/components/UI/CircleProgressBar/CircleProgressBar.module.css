@@ -6,5 +6,4 @@
 
 .progress svg {
     stroke: var(--bg-color-accent-dark);
-    stroke-width: 8px;
 }
