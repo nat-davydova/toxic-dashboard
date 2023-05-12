@@ -1,0 +1,13 @@
+.avatar {
+    --avatar-dimensions: 64px;
+
+    width: var(--avatar-dimensions);
+    height: var(--avatar-dimensions);
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.sizeLg {
+    --avatar-dimensions: 128px;
+}
