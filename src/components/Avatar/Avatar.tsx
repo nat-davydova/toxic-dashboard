@@ -6,9 +6,10 @@ import { AvatarSize } from "./types.ts";
 
 interface IAvatarProps {
   size?: AvatarSize;
+  imgSrc?: string;
 }
 
-export function Avatar({ size = AvatarSize.SM }: IAvatarProps) {
+export function Avatar({ size = AvatarSize.SM, imgSrc }: IAvatarProps) {
   const avatarClassnames = classNames({
     [`${styles.avatar}`]: true,
     [`${styles.sizeLg}`]: size === AvatarSize.LG,
@@ -16,7 +17,7 @@ export function Avatar({ size = AvatarSize.SM }: IAvatarProps) {
 
   return (
     <div className={avatarClassnames}>
-      <img src={defaultAvatar} alt="Userpic" />
+      <img src={imgSrc || defaultAvatar} alt="Userpic" />
     </div>
   );
 }
