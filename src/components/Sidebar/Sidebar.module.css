@@ -1,3 +1,4 @@
-.navigation {
+.sidebar {
+    color: var(--font-color-default);
     background-color: var(--bg-surfaces);
 }
