@@ -1,15 +1,17 @@
 :root {
-    --dark100: #141419;
-    --dark200: #191A21;
+    --grey100: #141419;
+    --grey200: #191A21;
+    --grey600: #8d9197;
 
     --light100: #f2f2f2;
 
-    --bg-default: var(--dark100);
-    --bg-surfaces: var(--dark200);
+    --bg-default: var(--grey100);
+    --bg-surfaces: var(--grey200);
 
     --font-size-default: 16px;
 
-    --font-color-default: var(--light100)
+    --font-color-default: var(--light100);
+    --font-color-secondary: var(--grey600);
 }
 
 .app {

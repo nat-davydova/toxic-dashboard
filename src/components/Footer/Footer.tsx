@@ -1,5 +1,5 @@
-import styles from "./Footer.modules.css";
+import styles from "./Footer.module.css";
 
 export function Footer() {
-  return <footer>Some footer here</footer>;
+  return <footer className={styles.footer}>by Natali Davydova, 2023</footer>;
 }
