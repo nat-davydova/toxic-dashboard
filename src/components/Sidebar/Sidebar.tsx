@@ -15,7 +15,7 @@ export function Sidebar() {
       <div className={styles.avatar}>
         <Avatar size={AvatarSize.LG} imgSrc={avatar} />
       </div>
-      <CircleProgressBar />
+      <CircleProgressBar progressPercents={65} />
       <div className={styles.userName}>User Name</div>
       <div className={styles.userLvl}>Next User Lvl</div>
       <nav>Navigation</nav>
