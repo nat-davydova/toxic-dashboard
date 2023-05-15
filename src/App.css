@@ -13,6 +13,8 @@
     --bg-color-accent-dark: var(--violet);
     --bg-color-accent-light: var(--pink);
 
+    --border-color-dark: var(--grey100);
+
     --font-size-default: 16px;
     --font-size-xl: 40px;
 

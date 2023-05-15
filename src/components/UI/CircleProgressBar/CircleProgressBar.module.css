@@ -5,5 +5,17 @@
 }
 
 .progress svg {
-    stroke: var(--bg-color-accent-dark);
+    transform: rotate(270deg) scaleY(-1);
+}
+
+.gradientDark {
+    stop-color: var(--bg-color-accent-dark);
+}
+
+.gradientLight {
+    stop-color: var(--bg-color-accent-light);
+}
+
+.progressBg {
+    stroke: var(--border-color-dark);
 }
