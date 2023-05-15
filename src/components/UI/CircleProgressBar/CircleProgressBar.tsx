@@ -27,6 +27,7 @@ export function CircleProgressBar({
           strokeWidth={PROGRESS_STROKE_WIDTH_DEFAULT_PX}
           strokeDasharray={circleLength}
           strokeDashoffset={offset}
+          strokeLinecap="round"
         />
       </svg>
     </div>

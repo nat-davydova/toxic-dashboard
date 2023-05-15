@@ -5,5 +5,6 @@
 }
 
 .progress svg {
+    transform: rotate(270deg) scaleY(-1);
     stroke: var(--bg-color-accent-dark);
 }
