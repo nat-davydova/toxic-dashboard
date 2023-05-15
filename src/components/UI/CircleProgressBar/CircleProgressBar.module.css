@@ -15,3 +15,7 @@
 .gradientLight {
     stop-color: var(--bg-color-accent-light);
 }
+
+.progressBg {
+    stroke: var(--border-color-dark);
+}

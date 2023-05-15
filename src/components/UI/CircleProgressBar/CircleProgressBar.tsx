@@ -29,6 +29,13 @@ export function CircleProgressBar({
           </linearGradient>
         </defs>
         <circle
+          className={styles.progressBg}
+          cx={CIRCLE_CENTER_COORD}
+          cy={CIRCLE_CENTER_COORD}
+          r={radius}
+          strokeWidth={PROGRESS_STROKE_WIDTH_DEFAULT_PX}
+        />
+        <circle
           cx={CIRCLE_CENTER_COORD}
           cy={CIRCLE_CENTER_COORD}
           r={radius}
