@@ -6,5 +6,5 @@ Inspired by this funny [Behance Shot](https://www.behance.net/gallery/155535263/
 
 ## Streams
 
-[Stream #1 (RU)](https://youtu.be/AgW1KXbzmVE) - sidebar structure, logo, avatar component, circle progress bar (in progress)
-[Stream #2 (RU)](https://youtu.be/dMicFc5ENFA) - circle progress bar, avatar with circle progress (in progress)
+* [Stream #1 (RU)](https://youtu.be/AgW1KXbzmVE) - sidebar structure, logo, avatar component, circle progress bar (in progress)
+* [Stream #2 (RU)](https://youtu.be/dMicFc5ENFA) - circle progress bar, avatar with circle progress (in progress)
