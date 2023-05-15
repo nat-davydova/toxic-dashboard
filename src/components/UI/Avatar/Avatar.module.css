@@ -15,3 +15,7 @@
 .sizeLg {
     --avatar-dimensions: 108px;
 }
+
+.sizeStretch {
+    --avatar-dimensions: 100%;
+}

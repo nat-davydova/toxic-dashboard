@@ -13,6 +13,7 @@ export function Avatar({ size = AvatarSize.SM, imgSrc }: IAvatarProps) {
   const avatarClassnames = classNames({
     [`${styles.avatar}`]: true,
     [`${styles.sizeLg}`]: size === AvatarSize.LG,
+    [`${styles.sizeStretch}`]: size === AvatarSize.STRETCH,
   });
 
   return (

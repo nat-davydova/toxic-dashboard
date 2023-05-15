@@ -1,4 +1,5 @@
 import styles from "./CircleProgressBar.module.css";
+import { getProgressSVGParams } from "./helpers.ts";
 
 const PROGRESS_STROKE_WIDTH_DEFAULT_PX = 3;
 const CIRCLE_CENTER_COORD = 50;
@@ -12,10 +13,11 @@ export function CircleProgressBar({
   strokeWidth = PROGRESS_STROKE_WIDTH_DEFAULT_PX,
   progressPercents,
 }: ICircleProgressBarProps) {
-  const radius = CIRCLE_CENTER_COORD - strokeWidth;
-  const circleLength = 2 * Math.PI * radius;
-  const progressBarLength = (circleLength * progressPercents) / 100;
-  const offset = circleLength - progressBarLength;
+  const { radius, circleLength, offset } = getProgressSVGParams({
+    strokeWidth,
+    progressPercents,
+    centerCoord: CIRCLE_CENTER_COORD,
+  });
 
   return (
     <div className={styles.progress}>

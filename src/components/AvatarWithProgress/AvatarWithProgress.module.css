@@ -1,0 +1,8 @@
+.avatarContainer {
+    display: grid;
+}
+
+.avatarContainer > * {
+    grid-area: 1/1;
+    place-self: center;
+}
