@@ -12,6 +12,10 @@
 }
 
 .avatar {
+    --avatar-dimensions: 160px;
+
+    width: var(--avatar-dimensions);
+    height: var(--avatar-dimensions);
     margin-bottom: 32px;
 }
 
