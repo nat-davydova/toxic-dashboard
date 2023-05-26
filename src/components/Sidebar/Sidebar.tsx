@@ -13,7 +13,9 @@ export function Sidebar() {
       <div className={styles.avatar}>
         <AvatarWithProgress src={avatar} progressPercents={65} />
       </div>
-      <div className={styles.userName}>User Name</div>
+      <div className={styles.userName}>
+        <p>Darrok Baratheon</p>
+      </div>
       <div className={styles.userLvl}>Next User Lvl</div>
       <nav>Navigation</nav>
     </aside>

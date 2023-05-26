@@ -1,5 +1,6 @@
-import { Avatar } from "./Avatar.tsx";
 import { Meta, StoryObj } from "@storybook/react";
+
+import { Avatar } from "./Avatar.tsx";
 import { AvatarSize } from "./types.ts";
 
 const meta = {
