@@ -1,8 +1,16 @@
-.avatarContainer {
+.container {
     display: grid;
 }
 
-.avatarContainer > * {
+.container > * {
     grid-area: 1/1;
     place-self: center;
+}
+
+.avatarContainer {
+    --stroke-width: 0; /* changes from jsx */
+    --avatar-diminution-coeff: 10;
+
+    width: calc(100% - var(--avatar-diminution-coeff) * var(--stroke-width));
+    height: calc(100% - var(--avatar-diminution-coeff) * var(--stroke-width));
 }

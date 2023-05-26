@@ -12,12 +12,19 @@
 }
 
 .avatar {
+    --avatar-dimensions: 160px;
+
+    width: var(--avatar-dimensions);
+    height: var(--avatar-dimensions);
     margin-bottom: 32px;
 }
 
 .userName {
-    margin-top: 50px;
     margin-bottom: 28px;
+}
+
+.userName > p {
+    margin: 0;
 }
 
 .userLvl {

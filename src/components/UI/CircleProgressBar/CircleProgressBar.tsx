@@ -35,14 +35,14 @@ export function CircleProgressBar({
           cx={CIRCLE_CENTER_COORD}
           cy={CIRCLE_CENTER_COORD}
           r={radius}
-          strokeWidth={PROGRESS_STROKE_WIDTH_DEFAULT_PX}
+          strokeWidth={strokeWidth}
         />
         <circle
           cx={CIRCLE_CENTER_COORD}
           cy={CIRCLE_CENTER_COORD}
           r={radius}
           stroke="url(#gradient)"
-          strokeWidth={PROGRESS_STROKE_WIDTH_DEFAULT_PX}
+          strokeWidth={strokeWidth}
           strokeDasharray={circleLength}
           strokeDashoffset={offset}
           strokeLinecap="round"
