@@ -1,6 +1,6 @@
 # Funny and Complex Dashboard Inspiration (in progress)
 
-## 👉 Check dev-branch
+## 👉 Check dev branch
 
 React dashboard where users can track their level of toxic behaviour and check all the stats 😂 
 
