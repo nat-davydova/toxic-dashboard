@@ -11,12 +11,11 @@ import {
 
 // Plan:
 
-// 1.2 add notification if no user id
-
-// 1.3 add preloader
-
-// 2. Add avatar into API
-// 3. render avatar from API
+// 0 add prop text to Notifications, add close, add icon
+// 1 add notification if user fetch fails
+// 2 add preloader
+// 3 Add avatar into API
+// 4 render avatar from API
 
 function App() {
   const [user, setUser] = useState<IUser | null>(null);
