@@ -1,10 +1,13 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-import { getUser, IUser } from "./api/user.ts";
+import { IUser } from "./api/user.ts";
 import { Footer } from "./components/Footer/Footer.tsx";
 import { Sidebar } from "./components/Sidebar/Sidebar.tsx";
-import { Notification } from "./components/UI/Notification/Notification.tsx";
+import {
+  Notification,
+  NotificationType,
+} from "./components/UI/Notification/Notification.tsx";
 
 // Plan:
 
@@ -28,7 +31,7 @@ function App() {
 
   return (
     <div className="app">
-      {!user && <Notification />}
+      {!user && <Notification type={NotificationType.ERROR} />}
       {user && (
         <>
           <Sidebar user={user} />
