@@ -9,9 +9,9 @@ import avatar from "./assets/avatar.svg";
 
 // Plan:
 // 0.1 Get data from api and map it
-
 // 1. Render Name, Last Name
 // 1.1 refactor
+
 // 1.2 add notification if no user id
 // 1.3 add preloader
 
@@ -22,7 +22,9 @@ export function Sidebar() {
   const [user, setUser] = useState<User | null>(null);
 
   useEffect(() => {
-    getUser().then((user) => setUser(user));
+    getUser()
+      .then((user) => setUser(user))
+      .catch((error) => console.log(error));
   }, []);
 
   if (!user) {

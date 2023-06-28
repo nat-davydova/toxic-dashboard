@@ -8,7 +8,7 @@ function userDataMapper(users: User[]): User | null {
   const isUserExists = Boolean(users.length);
 
   if (!isUserExists) {
-    return null;
+    throw new Error("There is no User");
   }
 
   const { id, lastName, name } = users[0];
