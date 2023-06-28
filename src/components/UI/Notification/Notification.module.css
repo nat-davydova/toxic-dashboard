@@ -1,0 +1,25 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    padding: 6px 16px;
+    color: var(--font-color-default);
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
+
+.warning {
+    background-color: var(--bg-warning);
+}
+
+.error {
+    background-color: var(--bg-error);
+}
+
+.success {
+    background-color: var(--bg-success);
+}
+
+.info {
+    background-color: var(--bg-info);
+}
