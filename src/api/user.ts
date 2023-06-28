@@ -1,10 +1,10 @@
-export interface User {
+export interface IUser {
   id: string;
   name: string;
   lastName: string;
 }
 
-function userDataMapper(users: User[]): User | null {
+function userDataMapper(users: IUser[]): IUser | null {
   const isUserExists = Boolean(users.length);
 
   if (!isUserExists) {
