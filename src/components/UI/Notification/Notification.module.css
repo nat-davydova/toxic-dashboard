@@ -8,6 +8,18 @@
     border-radius: 4px;
 }
 
+.warning {
+    background-color: var(--bg-warning);
+}
+
 .error {
     background-color: var(--bg-error);
+}
+
+.success {
+    background-color: var(--bg-success);
+}
+
+.info {
+    background-color: var(--bg-info);
 }
